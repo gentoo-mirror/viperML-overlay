@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst postrm unpack
+DEPEND=x11-themes/hicolor-icon-theme
+DESCRIPTION=A Material Design icon theme based on Paper Icon Theme
+EAPI=7
+HOMEPAGE=https://github.com/vinceliuice/vimix-icon-theme
+INHERIT=xdg-utils git-r3
+LICENSE=CC-BY-SA-4.0
+PROPERTIES=live
+RDEPEND=x11-themes/hicolor-icon-theme
+RESTRICT=strip
+SLOT=0
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=a0a1504723730a41d4f22c3ce2c4bc85
