@@ -6,7 +6,7 @@ app-text/master-pdf-editor 4.3.89: A complete solution for viewing and editing P
 kde-misc/wallpaper-engine-kde-plugin 9999: A wallpaper plugin integrating wallpaper engine into kde wallpaper setting
 media-sound/spotify-adblock 1.0.0: Spotify adblocker
 sys-apps/mdevctl 1.0.0: A mediated device management utility for Linux
-sys-boot/zfsbootmenu 1.10.1: ZFS Bootloader for root-on-ZFS systems
+sys-boot/zfsbootmenu 1.10.1 1.11.0: ZFS Bootloader for root-on-ZFS systems
 x11-apps/ocs-url 9999: A program enabling web-installation of items via OpenCollaborationServices
 x11-apps/selectdefaultapplication 9999: Define default applications on Linux in a sane way
 x11-misc/picom-jonaburg 9999: A lightweight compositor for X11 (previously a compton fork)
