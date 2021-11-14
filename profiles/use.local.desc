@@ -10,9 +10,6 @@ x11-misc/picom-jonaburg:doc - Build documentation and man pages (requires app-te
 x11-misc/picom-jonaburg:drm - Enable support for using drm for vsync
 x11-misc/picom-jonaburg:opengl - Enable features that require opengl (opengl backend, and opengl vsync methods)
 x11-plugins/multiload-ng:autostart - Install autostart entries for suitable targets
-x11-plugins/multiload-ng:awn - Build plugin for gnome-extra/avant-window-navigator (experimental)
-x11-plugins/multiload-ng:gtk2 - Build against GTK+2 (check compatibility with your panel)
-x11-plugins/multiload-ng:gtk3 - Build against GTK+3 (check compatibility with your panel)
 x11-plugins/multiload-ng:indicator - Build plugin with dev-libs/libappindicator (Ubuntu Unity and others)
 x11-plugins/multiload-ng:lxde - Build plugin for lxde-base/lxpanel
 x11-plugins/multiload-ng:mate - Build plugin for mate-base/mate-panel
