@@ -1,5 +1,6 @@
+acct-group/qemu-android-x86 0: A group for app-emulation/qemu-android-x86
 app-emulation/looking-glass 0.4: An extremely low latency KVMFR (KVM FrameRelay) implementation
-app-emulation/qemu-android-x86 7.1-r2: Android-x86 environment via QEMU and VirGL
+app-emulation/qemu-android-x86 20211127: Android-x86 environment via QEMU and VirGL
 app-misc/pixterm 1.3.1: Draw images in your ANSI terminal with true color
 app-shells/oh-my-posh 3.171.1 3.181.2: A prompt theme engine for any shell
 app-text/master-pdf-editor 4.3.89: A complete solution for viewing and editing PDF files

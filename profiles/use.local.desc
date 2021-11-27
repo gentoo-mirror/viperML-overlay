@@ -2,7 +2,8 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-emulation/qemu-android-x86:rwsystem - Transform the read-only system image into read/write
+app-emulation/qemu-android-x86:android-7 - Which Android-x86 image to use
+app-emulation/qemu-android-x86:cyanogenmod-14 - Which Android-x86 image to use
 kde-misc/wallpaper-engine-kde-plugin:webengine - Pull dependencies to run web-based wallpapers (bad performance)
 sys-boot/zfsbootmenu:efi - Pull dependecies for usage in a EFI system
 x11-misc/picom-jonaburg:config-file - Enable config file support

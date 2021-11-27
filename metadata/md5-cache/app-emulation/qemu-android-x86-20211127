@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile postinst
+DEPEND=acct-group/qemu-android-x86 sys-fs/squashfs-tools app-arch/rpm2targz
+DESCRIPTION=Android-x86 environment via QEMU and VirGL
+EAPI=8
+HOMEPAGE=https://github.com/viperML/qemu-android-x86
+INHERIT=xdg-utils
+IUSE=+android-7 -cyanogenmod-14
+KEYWORDS=~amd64
+LICENSE=GPL-2 Apache-2.0 CC0-1.0
+RDEPEND=app-emulation/qemu[qemu_softmmu_targets_x86_64,qemu_user_targets_x86_64,virtfs,virgl,sdl,sdl-image,virtfs,vhost-net] acct-group/qemu-android-x86
+REQUIRED_USE=^^ ( android-7 cyanogenmod-14 )
+SLOT=0
+SRC_URI=https://github.com/viperML/qemu-android-x86/archive/2260c1a12bb7ab4656934f2cf81a3bd5558214cc.tar.gz android-7? ( https://osdn.mirror.constant.com/android-x86/67834/android-x86-7.1-r5.x86_64.rpm ) cyanogenmod-14? ( https://osdn.mirror.constant.com/android-x86/68670/cm-x86-14.1-r4.x86_64.rpm )
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31
+_md5_=06f468fe8b49b0cc3b1bba0b88bab988
