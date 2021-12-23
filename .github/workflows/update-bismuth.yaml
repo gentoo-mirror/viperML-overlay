@@ -1,0 +1,23 @@
+name: Periodic version check - kde-misc/bismuth
+
+on:
+  schedule:
+    # Every saturday at night
+    - cron: '20 04 * * SAT'
+
+jobs:
+  update_kde-misc_bismuth:
+    runs-on: ubuntu-latest
+    container: viperml/gentoo-plasma
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run update.sh
+        run: ./kde-misc/bismuth/update.sh
+      - name: Create Pull request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.PAT }}
+          title: kde-misc/bismuth automatic update
+          commit-message: kde-misc/bismuth automatic update
+          branch: update_kde-misc/bismuth
+          delete-branch: true

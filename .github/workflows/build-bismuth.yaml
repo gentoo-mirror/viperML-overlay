@@ -1,0 +1,17 @@
+name: Build check - kde-misc/bismuth
+
+on:
+  pull_request:
+    branches:
+      - "**"
+    paths:
+      - 'kde-misc/bismuth/*'
+
+
+jobs:
+  build_kde-misc_bismuth:
+    runs-on: ubuntu-latest
+    container: docker://viperml/gentoo-plasma
+    steps:
+      - uses: actions/checkout@v2
+      - run: ebuild kde-misc/bismuth/*.ebuild clean merge
