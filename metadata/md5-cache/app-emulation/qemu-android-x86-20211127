@@ -11,5 +11,5 @@ RDEPEND=app-emulation/qemu[qemu_softmmu_targets_x86_64,qemu_user_targets_x86_64,
 REQUIRED_USE=^^ ( android-7 cyanogenmod-14 )
 SLOT=0
 SRC_URI=https://github.com/viperML/qemu-android-x86/archive/2260c1a12bb7ab4656934f2cf81a3bd5558214cc.tar.gz android-7? ( https://osdn.mirror.constant.com/android-x86/67834/android-x86-7.1-r5.x86_64.rpm ) cyanogenmod-14? ( https://osdn.mirror.constant.com/android-x86/68670/cm-x86-14.1-r4.x86_64.rpm )
-_eclasses_=xdg-utils	ac0e315a3688929e34ac75b139e7349a
+_eclasses_=xdg-utils	baea6080dd821f5562d715887954c9d3
 _md5_=06f468fe8b49b0cc3b1bba0b88bab988
