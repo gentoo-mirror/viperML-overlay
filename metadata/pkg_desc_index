@@ -11,7 +11,6 @@ sys-apps/mdevctl 1.0.0: A mediated device management utility for Linux
 sys-boot/zfsbootmenu 1.10.1 1.11.0: ZFS Bootloader for root-on-ZFS systems
 x11-apps/ocs-url 9999: A program enabling web-installation of items via OpenCollaborationServices
 x11-apps/selectdefaultapplication 9999: Define default applications on Linux in a sane way
-x11-misc/picom-jonaburg 9999: A lightweight compositor for X11 (previously a compton fork)
 x11-misc/xwinwrap 9999: Utility to replace a desktop background with a movie, screensaver, etc
 x11-plugins/multiload-ng 20210103: Modern graphical system monitor for any panel
 x11-plugins/x11-emoji-picker 0.8.2: A dialog / emoji picker inspired by the Windows 10 emoji picker
